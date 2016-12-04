@@ -1,0 +1,61 @@
+
+quicktouch.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background-black
+  rotate: false
+  xy: 1, 163
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+credit
+  rotate: false
+  xy: 323, 163
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+banner
+  rotate: false
+  xy: 1, 1
+  size: 319, 160
+  orig: 319, 160
+  offset: 0, 0
+  index: -1
+straight-black
+  rotate: false
+  xy: 645, 451
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+left-black
+  rotate: false
+  xy: 322, 129
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+right-black
+  rotate: false
+  xy: 645, 417
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+down-black
+  rotate: false
+  xy: 679, 451
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+up-black
+  rotate: false
+  xy: 322, 95
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

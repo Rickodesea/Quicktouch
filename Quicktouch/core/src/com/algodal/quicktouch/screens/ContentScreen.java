@@ -18,6 +18,7 @@ public class ContentScreen extends GdxScreen{
 	public float width, height;
 	public OrthographicCamera camera;
 	public ShapeRenderer shape;
+	//public GdxPrefs<GameData> gamePrefs;
 	
 	@Override
 	public void create() {
@@ -28,7 +29,11 @@ public class ContentScreen extends GdxScreen{
 		height = viewport.getWorldHeight();
 		camera = (OrthographicCamera) viewport.getCamera(); camera.position.set(width / 2f, height / 2f, 0);
 		shape = getGameLibrary().getContent("ShapeRenderer", ShapeRenderer.class).get();
+		//gamePrefs = getGameLibrary().getContent("GamePrefs", GdxPrefs.class).get();
 	}
-	
-	
+
+	@Override
+	public void resize(int width, int height) {
+		viewport.update(width, height);
+	}
 }
