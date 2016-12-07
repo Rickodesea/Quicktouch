@@ -11,6 +11,3 @@ A libGdx game for desktop and mobile whose player tries to touch the character o
 ##The timer
 + The timer runs at the start of the game
 + The timer ends the game when it reaches 0
-
-##Additional
-+ The game will support interstitial Ads
